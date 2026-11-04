@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Global styles for your app */
+body {
+  @apply bg-gray-50 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ✅ Inputs, selects, and textareas */
+input, select, textarea {
+  @apply border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* ✅ Buttons (extra polish on top of Tailwind utilities) */
+button {
+  @apply focus:outline-none;
+}
+
+/* ✅ Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-800;
+}
+
+
+
